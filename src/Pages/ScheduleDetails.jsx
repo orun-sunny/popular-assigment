@@ -8,7 +8,7 @@ const ScheduleDetails = () => {
 
   const handaleFormSubit = async (event) => {
     event.preventDefault();
-
+    //fetched here
     await fetch("data.json")
       .then((res) => res.json())
       .then((data) => setAllData(data))
