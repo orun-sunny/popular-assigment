@@ -3,10 +3,10 @@ const ScheduleCard = ({ allItems, titleAllData }) => {
     <div className="md:px-20">
       <h1>{allItems?.message}</h1>
 
-      <div className="overflow-x-auto">
-        <table className="w-full bg-white shadow-md rounded my-8 ">
+      <div className="">
+        <table className="w-full bg-white  rounded my-8 ">
           <thead>
-            <tr className="bg-gray-300">
+            <tr className="bg-gray-400">
               {/* title all data*/}
               {titleAllData?.map((data, index) => (
                 <th key={index} className="border px-6 py-3">
