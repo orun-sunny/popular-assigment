@@ -1,7 +1,7 @@
 
 # Project Title
 
-frontend-task-popular-travles
+frontend-task-popular-travels
 
 
 ## How to Run
