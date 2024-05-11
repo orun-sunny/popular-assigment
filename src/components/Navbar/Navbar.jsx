@@ -1,6 +1,6 @@
 import { useState } from "react";
 import user from "../../assets/user.png";
-import { IoIosNotificationsOutline } from "react-icons/io";
+import { IoMdNotifications } from "react-icons/io";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -50,7 +50,7 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="flex  space-x-6">
                 <ul className="flex space-x-4">
-                  {/* Navbar all li list  */}
+                  {/* Navbar all list  */}
                   {navItmes}
                 </ul>
               </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-6 flex gap-6 items-center md:ml-8 cursor-pointer">
                 <p className="text-gray-300 text-2xl">
-                  <IoIosNotificationsOutline />
+                  <IoMdNotifications />
                 </p>
                 <img className="w-8 h-8 rounded-full" src={user} alt="" />
               </div>
@@ -88,7 +88,7 @@ const Navbar = () => {
         <div className={`${isOpen ? "block" : "hidden"} md:hidden`}>
           <div className="px-4 pt-4 pb-4 space-y-2 sm:px-2">
             <ul className="flex flex-col space-y-2">
-              {/* Navbar all li list */}
+              {/* Navbar all  list */}
               {navItmes}
             </ul>
           </div>
